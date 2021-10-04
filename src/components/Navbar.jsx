@@ -64,7 +64,7 @@ export default function Navbar(){
                     </SearchContainer>
                 </Left>
                 <Center>
-                    <Logo>Padova</Logo>
+                    <Logo>BRAND LOGO</Logo>
                 </Center>
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
