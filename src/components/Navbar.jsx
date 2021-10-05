@@ -64,7 +64,7 @@ export default function Navbar(){
                     </SearchContainer>
                 </Left>
                 <Center>
-                    <Logo>BRAND LOGO</Logo>
+                    <Logo>YOUR BRAND</Logo>
                 </Center>
                 <Right>
                     <MenuItem>REGISTER</MenuItem>

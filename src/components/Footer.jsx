@@ -10,6 +10,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Container = styled.div`
     display: flex;
+    margin-bottom: 20px;
 `
 const Left = styled.div`
     flex: 1;
@@ -73,7 +74,7 @@ export default function Footer(){
     return(
         <Container>
             <Left>
-                <Logo>PADOVA</Logo>
+                <Logo>YOUR BRAND</Logo>
                 <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, earum doloremque aperiam quas nihil recusandae numquam exercitationem libero repellat alias autem vitae culpa labore eos vero aspernatur? Inventore, deleniti eos!</Description>
                 <SocialContainer>
                     <SocialIcon color="3B5999">
