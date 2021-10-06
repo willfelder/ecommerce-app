@@ -8,6 +8,7 @@ import RoomIcon from '@mui/icons-material/Room';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import { mobile } from '../responsive';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     display: flex;
@@ -39,6 +40,7 @@ const SocialIcon = styled.div`
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    cursor: pointer;
 `
 const Center = styled.div`
     flex: 1;
@@ -58,6 +60,7 @@ const List = styled.ul`
 const ListIcon = styled.li`
     width: 50%;
     margin-bottom: 10px;
+    cursor: pointer;
 `
 const Right = styled.div`
     flex: 1;
@@ -81,29 +84,49 @@ export default function Footer(){
                 <Logo>YOUR BRAND</Logo>
                 <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, earum doloremque aperiam quas nihil recusandae numquam exercitationem libero repellat alias autem vitae culpa labore eos vero aspernatur? Inventore, deleniti eos!</Description>
                 <SocialContainer>
-                    <SocialIcon color="3B5999">
-                        <FacebookIcon />
-                    </SocialIcon>
-                    <SocialIcon color="E4405F">
-                        <InstagramIcon/>
-                    </SocialIcon>
-                    <SocialIcon color="55ACEE">
-                        <TwitterIcon/>
-                    </SocialIcon>
-                    <SocialIcon color="E60023">
-                        <PinterestIcon/>
-                    </SocialIcon>
+                    <a href="https://www.facebook.com/">
+                        <SocialIcon color="3B5999">
+                                <FacebookIcon />
+                        </SocialIcon>
+                    </a> 
+                    <a href="https://www.instagram.com/">
+                        <SocialIcon color="3B5999">
+                            <InstagramIcon />
+                        </SocialIcon>
+                    </a> 
+                    <a href="https://www.twitter.com/">
+                        <SocialIcon color="3B5999">
+                            <TwitterIcon/>
+                        </SocialIcon>
+                    </a> 
+                    <a href="https://www.pinterestk.com/">
+                        <SocialIcon color="3B5999">
+                            <PinterestIcon/>
+                        </SocialIcon>
+                    </a> 
                 </SocialContainer>
             </Left>
             <Center>
                 <Title>Useful Links</Title>
                 <List>
-                    <ListIcon>Home</ListIcon>
-                    <ListIcon>Cart</ListIcon>
-                    <ListIcon>Man Fashion</ListIcon>
-                    <ListIcon>Woman Fashion</ListIcon>
-                    <ListIcon>Accessories</ListIcon>
-                    <ListIcon>My Account</ListIcon>
+                    <ListIcon>
+                        <Link to="/">Home</Link>
+                    </ListIcon>
+                    <ListIcon>
+                        <Link to="/cart" style={{textDecoration: "none", color: "#161616"}}>Cart</Link>
+                    </ListIcon>
+                    <ListIcon>
+                        <Link to="/productList" style={{textDecoration: "none", color: "#161616"}}>Man Fashion</Link>
+                    </ListIcon>
+                    <ListIcon>
+                        <Link to="/productList" style={{textDecoration: "none", color: "#161616"}}>Woman Fashion</Link>
+                    </ListIcon>
+                    <ListIcon>
+                        <Link to="/productList" style={{textDecoration: "none", color: "#161616"}}>Acessories</Link>
+                    </ListIcon>
+                    <ListIcon>
+                        <Link to="/login" style={{textDecoration: "none", color: "#161616"}}>My Account</Link>
+                    </ListIcon>
                     <ListIcon>Order Tracking</ListIcon>
                     <ListIcon>Wishlist</ListIcon>
                     <ListIcon>Terms</ListIcon>

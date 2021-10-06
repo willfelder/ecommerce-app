@@ -38,8 +38,9 @@ const Input = styled.input`
 const Button = styled.button`
     flex: 1;
     border: none;
-    background-color: teal;
+    background-color: #dd2100;
     color: #fff;
+    cursor: pointer;
 `
 
 export default function NewsLetter(){

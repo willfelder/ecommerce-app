@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { mobile } from '../responsive';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     flex: 1;
@@ -45,7 +46,9 @@ export default function CategoryItem({ item }){
             <Image src={item.image} />
             <Info>
                 <Title>{item.title}</Title>
-                <Button>SHOP NOW</Button>
+                <Button>
+                    <Link to="/productList" style={{ textDecoration: "none", color: "#161616"}}>SHOP NOW</Link>
+                </Button>
             </Info>
         </Container>
     )

@@ -4,6 +4,7 @@ import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import { SliderItems } from '../data';
 import { mobile } from '../responsive';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     width: 100%;
@@ -17,7 +18,7 @@ const Arrow = styled.div`
     width: 50px;
     height: 50px;
     background-color: #fff7f7;
-    border-radious: 50%;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,6 +70,11 @@ const Button = styled.button`
     font-size: 20px;
     background-color: transparent;
     cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover{
+        background-color: #e2e2e2;
+    }
 `
 
 export default function Slider(){
@@ -98,7 +104,11 @@ export default function Slider(){
                             <InfoContainer>
                                 <Title>{item.title}</Title>
                                 <Description>{item.description}</Description>
-                                <Button>SHOP NOW</Button>
+                                <Button>
+                                    <Link to="/productList" style={{ textDecoration: "none", color: "#161616"}}>
+                                        SHOP NOW
+                                    </Link>
+                                </Button>
                             </InfoContainer>
                         </Slide>
                     ))}

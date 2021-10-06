@@ -32,7 +32,7 @@ const TopButton = styled.button`
     transition: all 0.5s ease;
 
     &:hover{
-        background-color: ${props => props.type === "filled" ? "#3d3d3d" : "transparent"};
+        background-color: ${props => props.type === "filled" ? "#505050" : "transparent"};
     }
 `
 const TopTexts = styled.div`
@@ -138,7 +138,7 @@ const Button = styled.button`
     transition: all 0.5s ease;
 
     &:hover {
-        background-color: #3d3d3d;
+        background-color: #505050;
     }
 `
 
