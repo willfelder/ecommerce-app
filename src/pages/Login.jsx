@@ -9,7 +9,7 @@ const Container = styled.div`
         rgb(255,255,255,0.5),
         rgb(255,255,255,0.5)
         ), 
-        url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+        url("https://images.unsplash.com/photo-1483985988355-763728e1935b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80") center;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -19,6 +19,7 @@ const Wrapper = styled.div`
     padding: 20px;
     width: 25%;
     background-color: #fff;
+    border-radius: 10px;
     ${mobile({ width: "75%" })}
 `
 const Title = styled.h1`
@@ -39,7 +40,7 @@ const Button = styled.button`
     width: 40%;
     border: none;
     padding: 15px 20px;
-    background-color: teal;
+    background-color: #dd2100;
     color: #fff;
     cursor: pointer;
     margin-bottom: 10px;

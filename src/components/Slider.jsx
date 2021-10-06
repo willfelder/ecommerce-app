@@ -17,7 +17,7 @@ const Container = styled.div`
 const Arrow = styled.div`
     width: 50px;
     height: 50px;
-    background-color: #fff7f7;
+    background-color: #d6d4d4;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -31,12 +31,17 @@ const Arrow = styled.div`
     cursor: pointer;
     opacity: 0.5;
     z-index: 2;
+    transition: all 0.5s ease;
+
+    &:hover{
+        background-color: #bdbdbd;
+    }
 `
 const Wrapper = styled.div`
     height: 100%;
     display: flex;
-    transform: translateX(${(props) => props.slideIndex * -100}vwk);
-    animation: all 1.5s ease;
+    transform: translateX(${(props) => props.slideIndex * -100}vw);
+    transition: all 1.5s ease;
 `
 const Slide = styled.div`
     display: flex;
@@ -48,6 +53,7 @@ const Slide = styled.div`
 const ImageContainer = styled.div`
     flex: 1;
     height: 100%;
+    margin-left: 100px;
 `
 const Image = styled.img`
     height: 80%;
@@ -55,9 +61,10 @@ const Image = styled.img`
 const InfoContainer = styled.div`
     flex: 1;
     padding: 5px;
+    margin-right: 100px;
 `
 const Title = styled.h1`
-    font-size: 70px;
+    font-size: 90px;
 `
 const Description = styled.p`
     margin: 50px 0px;
@@ -66,15 +73,19 @@ const Description = styled.p`
     letter-spacing: 3px;
 `
 const Button = styled.button`
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 20px;
-    background-color: transparent;
+    border-radius: 10px;
+    background-color: #dd2100;
     cursor: pointer;
     transition: all 0.5s ease;
 
     &:hover{
-        background-color: #e2e2e2;
+        background-color: #ca4a34;
     }
+`
+const ShowText = styled.span`
+    color: #fff;
 `
 
 export default function Slider(){
@@ -90,7 +101,6 @@ export default function Slider(){
     }
 
     return(
-        <>
             <Container>
                 <Arrow direction="left" onClick={() => handleClick("left")}>
                     <ArrowLeftIcon />
@@ -106,7 +116,7 @@ export default function Slider(){
                                 <Description>{item.description}</Description>
                                 <Button>
                                     <Link to="/productList" style={{ textDecoration: "none", color: "#161616"}}>
-                                        SHOP NOW
+                                        <ShowText>SHOP NOW</ShowText>
                                     </Link>
                                 </Button>
                             </InfoContainer>
@@ -118,6 +128,5 @@ export default function Slider(){
                     <ArrowRightIcon />
                 </Arrow>
             </Container>
-        </>
     )
 }

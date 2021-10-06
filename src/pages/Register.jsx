@@ -9,7 +9,7 @@ const Container = styled.div`
         rgb(255,255,255,0.5),
         rgb(255,255,255,0.5)
         ), 
-        url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center;
+        url("https://images.unsplash.com/photo-1614755752522-67afab1eb969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80") center;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -18,6 +18,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
     padding: 20px;
     width: 40%;
+    border-radius: 10px;
     background-color: #fff;
     ${mobile({ width: "75%" })}
 `
@@ -43,7 +44,7 @@ const Button = styled.button`
     width: 40%;
     border: none;
     padding: 15px 20px;
-    background-color: teal;
+    background-color: #dd2100;
     color: #fff;
     cursor: pointer;
 `
@@ -55,12 +56,12 @@ export default function Register(){
             <Wrapper>
                 <Title>Create an Account</Title>
                 <Form>
-                    <Input palceholder="name"/>
-                    <Input palceholder="last name"/>
-                    <Input palceholder="email"/>
-                    <Input palceholder="username"/>
-                    <Input palceholder="password"/>
-                    <Input palceholder="confirm password"/>
+                    <Input placeholder="name"/>
+                    <Input placeholder="last name"/>
+                    <Input placeholder="email"/>
+                    <Input placeholder="username"/>
+                    <Input placeholder="password"/>
+                    <Input placeholder="confirm password"/>
                     <Agreement>
                         By creating this account, I consent to the processing of my personal data in accordance with the <b>PRIVACY POLICY</b>
                     </Agreement>

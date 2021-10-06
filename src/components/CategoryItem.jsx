@@ -37,6 +37,11 @@ const Button = styled.button`
     font-weight: 600;
     cursor: pointer;
     padding: 10px;
+    transition: all 0.5s ease;
+
+    &:hover{
+        background-color: #c0c0c0;
+    }
 `
 
 export default function CategoryItem({ item }){

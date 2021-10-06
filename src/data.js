@@ -1,7 +1,7 @@
 export const SliderItems = [
     {
         id: 1,
-        image: "https://i.ibb.co/DG69bQ4/2.png",
+        image: "https://i.ibb.co/cgCvVrr/girl1-png.png",
         title: "SUMMER SALE",
         description: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         backgroundColor: "f5fafd"
@@ -9,7 +9,7 @@ export const SliderItems = [
     {
         id: 2,
         image: "https://i.ibb.co/DG69bQ4/2.png",
-        title: "WINTER SALE",
+        title: "30% OFF SALE",
         description: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         backgroundColor: "fcf1ed"
     },

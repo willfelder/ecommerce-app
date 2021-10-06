@@ -25,6 +25,13 @@ const Left = styled.div`
 const Language = styled.div`
     font-size: 14px;
     cursor: pointer;
+    transition: all 0.5s ease;
+    padding: 10px;
+    border-radius: 50%;
+
+    &:hover{
+        background-color: #e7e7e7;
+    }
     ${mobile({ display: "none" })}
 `
 const SearchContainer = styled.div`
@@ -33,6 +40,7 @@ const SearchContainer = styled.div`
     align-items: center;
     margin-left: 25px;
     padding: 5px;
+    border-radius: 50px;
 `
 const Input = styled.input`
     border: none;
@@ -57,6 +65,13 @@ const MenuItem = styled.div`
     font-size: 14px;
     cursor: pointer;
     margin-left: 25px;
+    padding: 5px 10px;
+    transition: all 0.5s ease;
+
+    &:hover{
+        background-color: #e7e7e7;
+        border-radius: 10px;
+    }
     ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `
 
