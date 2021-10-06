@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
     width: 100%;
@@ -18,6 +19,7 @@ const Wrapper = styled.div`
     padding: 20px;
     width: 25%;
     background-color: #fff;
+    ${mobile({ width: "75%" })}
 `
 const Title = styled.h1`
     font-size: 24px;
@@ -41,6 +43,7 @@ const Button = styled.button`
     color: #fff;
     cursor: pointer;
     margin-bottom: 10px;
+    
 `
 const Link = styled.a`
     margin: 5px 0px;
@@ -56,8 +59,8 @@ export default function Login(){
             <Wrapper>
                 <Title>Sign In</Title>
                 <Form>
-                    <Input palceholder="username"/>
-                    <Input palceholder="password"/>
+                    <Input placeholder="username"/>
+                    <Input placeholder="password"/>
                     <Button>Login</Button>
                     <Link>Do not remember your password?</Link>
                     <Link>Create a new account</Link>
