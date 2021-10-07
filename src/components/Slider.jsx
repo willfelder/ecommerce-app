@@ -62,7 +62,7 @@ const Image = styled.img`
 const InfoContainer = styled.div`
     flex: 1;
     padding: 5px;
-    margin-right: 100px;
+    margin-right: 150px;
 `
 const Title = styled.h1`
     font-size: 90px;
