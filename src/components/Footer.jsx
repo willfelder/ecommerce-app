@@ -109,22 +109,22 @@ export default function Footer(){
                 <Title>Useful Links</Title>
                 <List>
                     <ListIcon>
-                        <Link to="" style={{ textDecoration: "none", color: "#161616"}}>Home</Link>
+                        <Link to="/" style={{ textDecoration: "none", color: "#161616"}}>Home</Link>
                     </ListIcon>
                     <ListIcon>
-                        <Link to="/cart" style={{textDecoration: "none", color: "#161616"}}>Cart</Link>
+                        <Link to="/home/cart" style={{textDecoration: "none", color: "#161616"}}>Cart</Link>
                     </ListIcon>
                     <ListIcon>
-                        <Link to="/productList" style={{textDecoration: "none", color: "#161616"}}>Man Fashion</Link>
+                        <Link to="/home/productList" style={{textDecoration: "none", color: "#161616"}}>Man Fashion</Link>
                     </ListIcon>
                     <ListIcon>
-                        <Link to="/productList" style={{textDecoration: "none", color: "#161616"}}>Woman Fashion</Link>
+                        <Link to="/home/productList" style={{textDecoration: "none", color: "#161616"}}>Woman Fashion</Link>
                     </ListIcon>
                     <ListIcon>
-                        <Link to="/productList" style={{textDecoration: "none", color: "#161616"}}>Acessories</Link>
+                        <Link to="/home/productList" style={{textDecoration: "none", color: "#161616"}}>Acessories</Link>
                     </ListIcon>
                     <ListIcon>
-                        <Link to="/login" style={{textDecoration: "none", color: "#161616"}}>My Account</Link>
+                        <Link to="/home/login" style={{textDecoration: "none", color: "#161616"}}>My Account</Link>
                     </ListIcon>
                     <ListIcon>Order Tracking</ListIcon>
                     <ListIcon>Wishlist</ListIcon>

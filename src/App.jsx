@@ -12,12 +12,12 @@ export default function App() {
     <>
       <Router>
         <Switch>
-          <Route exact path="" component={Home} />
-          <Route path="/login" component={Login} />
-          <Route path="/register" component={Register} />
-          <Route path="/productList" component={ProductList} />
-          <Route path="/product" component={Product} />
-          <Route path="/cart" component={Cart} />
+          <Route exact path="/home" component={Home} />
+          <Route path="/home/login" component={Login} />
+          <Route path="/home/register" component={Register} />
+          <Route path="/home/productList" component={ProductList} />
+          <Route path="/home/product" component={Product} />
+          <Route path="/home/cart" component={Cart} />
         </Switch>
       </Router>
     </>

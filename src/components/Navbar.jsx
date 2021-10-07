@@ -92,18 +92,18 @@ export default function Navbar(){
                 </Center>
                 <Right>
                     <MenuItem>
-                        <Link to="/register" style={{ textDecoration: "none", color: "#161616"}}>
+                        <Link to="/home/register" style={{ textDecoration: "none", color: "#161616"}}>
                               REGISTER
                         </Link>
                     </MenuItem>
                     <MenuItem>
-                        <Link to="/login" style={{ textDecoration: "none", color: "#161616"}}>
+                        <Link to="/home/login" style={{ textDecoration: "none", color: "#161616"}}>
                             SIGN IN
                         </Link>
                     </MenuItem>
                     <MenuItem>
                         <Badge badgeContent={4} color="primary">
-                            <Link to="/cart" style={{ textDecoration: "none", color: "#161616"}}>
+                            <Link to="/home/cart" style={{ textDecoration: "none", color: "#161616"}}>
                                 <ShoppingCartOutlinedIcon/>
                             </Link>
                         </Badge>
