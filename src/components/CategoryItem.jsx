@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { mobile } from '../responsive';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const Container = styled.div`
     flex: 1;
@@ -46,7 +47,7 @@ const Button = styled.button`
 
 export default function CategoryItem({ item }){
     return(
-        <Container>
+        <Container as={motion.div} whileHover={{scale: 1.1, transition: "all s ease"}}>
             <Image src={item.image} />
             <Info>
                 <Title>{item.title}</Title>

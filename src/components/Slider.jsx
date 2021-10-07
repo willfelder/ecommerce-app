@@ -82,7 +82,7 @@ const Button = styled.button`
     transition: all 0.5s ease;
 
     &:hover{
-        background-color: #ca4a34;
+        background-color: #dd5c45;
     }
 `
 const ShowText = styled.span`
