@@ -109,7 +109,7 @@ export default function Footer(){
                 <Title>Useful Links</Title>
                 <List>
                     <ListIcon>
-                        <Link to="/home" style={{ textDecoration: "none", color: "#161616"}}>Home</Link>
+                        <Link to="" style={{ textDecoration: "none", color: "#161616"}}>Home</Link>
                     </ListIcon>
                     <ListIcon>
                         <Link to="/cart" style={{textDecoration: "none", color: "#161616"}}>Cart</Link>
