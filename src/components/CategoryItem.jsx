@@ -45,7 +45,6 @@ const Button = styled.button`
 `
 
 export default function CategoryItem({ item }){
-
     return(
         <Container>
             <Image src={item.image} />

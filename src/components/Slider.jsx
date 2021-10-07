@@ -5,6 +5,7 @@ import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import { SliderItems } from '../data';
 import { mobile } from '../responsive';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const Container = styled.div`
     width: 100%;
@@ -87,6 +88,20 @@ const Button = styled.button`
 const ShowText = styled.span`
     color: #fff;
 `
+const containerVariant = {
+    hidden: {
+        opacity: 0,
+        x: '100vh'
+    },
+    visible: {
+        opacity: 1,
+        x: 0, 
+        transition: {
+            type: 'spring',
+            delay: 0.5
+        }
+    }
+}
 
 export default function Slider(){
 
@@ -111,7 +126,10 @@ export default function Slider(){
                             <ImageContainer>
                                 <Image src={item.image} />
                             </ImageContainer>
-                            <InfoContainer>
+                            <InfoContainer as={motion.div} 
+                                           variants={containerVariant}
+                                           initial="hidden"
+                                           animate="visible">
                                 <Title>{item.title}</Title>
                                 <Description>{item.description}</Description>
                                 <Button>

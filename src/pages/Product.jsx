@@ -104,7 +104,6 @@ const Button = styled.button`
 `
 
 export default function Product(){
-
     return(
         <Container>
             <Navbar />

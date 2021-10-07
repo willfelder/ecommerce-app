@@ -12,7 +12,6 @@ const Container = styled.div`
 `
 
 export default function Categories(){
-
     return(
         <Container>
             {categories.map(item => (

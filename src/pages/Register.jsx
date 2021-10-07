@@ -50,7 +50,6 @@ const Button = styled.button`
 `
 
 export default function Register(){
-
     return(
         <Container>
             <Wrapper>

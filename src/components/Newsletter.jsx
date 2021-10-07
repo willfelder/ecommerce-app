@@ -44,7 +44,6 @@ const Button = styled.button`
 `
 
 export default function NewsLetter(){
-
     return(
         <Container>
             <Title>Newsletter</Title>

@@ -39,7 +39,6 @@ const Option = styled.option`
 `
 
 export default function ProductList(){
-
     return(
         <Container>
             <Navbar />

@@ -63,7 +63,6 @@ const Icon = styled.div`
 `
 
 export default function Product({ item }){
-
     return(
         <Container>
             <Circle />

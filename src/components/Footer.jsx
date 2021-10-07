@@ -77,7 +77,6 @@ const Payment = styled.img`
 `
 
 export default function Footer(){
-
     return(
         <Container>
             <Left>

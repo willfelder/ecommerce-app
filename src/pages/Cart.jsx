@@ -143,7 +143,6 @@ const Button = styled.button`
 `
 
 export default function Cart(){
-
     return(
         <Container>
             <Navbar />
