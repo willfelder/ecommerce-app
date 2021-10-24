@@ -103,7 +103,7 @@ const Button = styled.button`
     }
 `
 
-export default function Product(){
+function Product(){
     return(
         <Container>
             <Navbar />
@@ -147,5 +147,6 @@ export default function Product(){
             <NewsLetter />
             <Footer />
         </Container>
-    )
+    );
 }
+export default Product;

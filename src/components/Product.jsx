@@ -62,7 +62,7 @@ const Icon = styled.div`
     }
 `
 
-export default function Product({ item }){
+function Product({ item }){
     return(
         <Container>
             <Circle />
@@ -79,5 +79,6 @@ export default function Product({ item }){
                 </Icon>
             </Info>
         </Container>
-    )
+    );
 }
+export default Product;

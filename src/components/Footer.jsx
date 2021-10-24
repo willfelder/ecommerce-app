@@ -76,7 +76,7 @@ const Payment = styled.img`
     width: 50%;
 `
 
-export default function Footer(){
+function Footer(){
     return(
         <Container>
             <Left>
@@ -145,5 +145,6 @@ export default function Footer(){
                 <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
             </Right>
         </Container>
-    )
+    );
 }
+export default Footer;

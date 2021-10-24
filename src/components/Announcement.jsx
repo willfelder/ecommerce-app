@@ -10,10 +10,11 @@ const Container = styled.div`
     justify-content: center;
 `
 
-export default function Announcement(){
+function Announcement(){
     return(
             <Container>
                 Super Deal! Free Shipping on Orders over 50$
             </Container>
-    )
+    );
 }
+export default Announcement;

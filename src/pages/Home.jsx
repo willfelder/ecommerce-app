@@ -7,7 +7,7 @@ import NewsLetter from '../components/Newsletter';
 import Products from '../components/Products';
 import Slider from '../components/Slider';
 
-export default function Home(){
+function Home(){
     return(
         <>
           <Announcement />
@@ -18,5 +18,6 @@ export default function Home(){
           <NewsLetter/>
           <Footer/>
         </>
-    )
+    );
 }
+export default Home;

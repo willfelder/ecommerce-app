@@ -76,7 +76,7 @@ const MenuItem = styled.div`
     ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `
 
-export default function Navbar(){
+function Navbar(){
     return(
         <Container>
             <Wrapper>
@@ -111,5 +111,6 @@ export default function Navbar(){
                 </Right>
             </Wrapper>
         </Container>
-    )
+    );
 }
+export default Navbar;

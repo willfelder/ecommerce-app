@@ -45,7 +45,7 @@ const Button = styled.button`
     }
 `
 
-export default function CategoryItem({ item }){
+function CategoryItem({ item }){
     return(
         <Container as={motion.div} whileHover={{scale: 1.1, transition: "all s ease"}}>
             <Image src={item.image} />
@@ -56,5 +56,6 @@ export default function CategoryItem({ item }){
                 </Button>
             </Info>
         </Container>
-    )
+    );
 }
+export default CategoryItem;

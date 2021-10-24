@@ -53,7 +53,7 @@ const Link = styled.a`
     cursor: pointer;
 `
 
-export default function Login(){
+function Login(){
     return(
         <Container>
             <Wrapper>
@@ -67,5 +67,6 @@ export default function Login(){
                 </Form>
             </Wrapper>
         </Container>
-    )
+    );
 }
+export default Login;

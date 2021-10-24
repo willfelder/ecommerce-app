@@ -11,12 +11,13 @@ const Container = styled.div`
     ${mobile({ padding: "0px", flexDirection: "column" })}
 `
 
-export default function Categories(){
+function Categories(){
     return(
         <Container>
             {categories.map(item => (
                 <CategoryItem item={item} key={item.id} />
             ))}
         </Container>
-    )
+    );
 }
+export default Categories;

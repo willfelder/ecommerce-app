@@ -44,7 +44,7 @@ const Button = styled.button`
     cursor: pointer;
 `
 
-export default function NewsLetter(){
+function NewsLetter(){
     return(
         <Container>
             <Title>Newsletter</Title>
@@ -56,5 +56,6 @@ export default function NewsLetter(){
                 </Button>
             </InputContainer>
         </Container>
-    )
+    );
 }
+export default NewsLetter;

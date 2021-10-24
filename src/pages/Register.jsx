@@ -49,7 +49,7 @@ const Button = styled.button`
     cursor: pointer;
 `
 
-export default function Register(){
+function Register(){
     return(
         <Container>
             <Wrapper>
@@ -68,5 +68,6 @@ export default function Register(){
                 </Form>
             </Wrapper>
         </Container>
-    )
+    );
 }
+export default Register;

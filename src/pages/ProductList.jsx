@@ -38,7 +38,7 @@ const Option = styled.option`
     
 `
 
-export default function ProductList(){
+function ProductList(){
     return(
         <Container>
             <Navbar />
@@ -77,5 +77,6 @@ export default function ProductList(){
             <NewsLetter />
             <Footer />
         </Container>
-    )
+    );
 }
+export default ProductList;

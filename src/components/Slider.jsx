@@ -103,10 +103,8 @@ const containerVariant = {
     }
 }
 
-export default function Slider(){
-
+function Slider(){
     const [ slideIndex, setSlideIndex ] = useState(0);
-
     const handleClick = (direction) => {
         if(direction === "left"){
             setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2)
@@ -114,7 +112,6 @@ export default function Slider(){
             setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0)
         }
     }
-
     return(
             <Container>
                 <Arrow direction="left" onClick={() => handleClick("left")}>
@@ -140,11 +137,11 @@ export default function Slider(){
                             </InfoContainer>
                         </Slide>
                     ))}
-
                 </Wrapper>
                 <Arrow direction="right" onClick={() => handleClick("right")}>
                     <ArrowRightIcon />
                 </Arrow>
             </Container>
-    )
+    );
 }
+export default Slider;

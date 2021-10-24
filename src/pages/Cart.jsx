@@ -142,7 +142,7 @@ const Button = styled.button`
     }
 `
 
-export default function Cart(){
+function Cart(){
     return(
         <Container>
             <Navbar />
@@ -223,5 +223,6 @@ export default function Cart(){
             </Wrapper>
             <Footer />
         </Container>
-    )
+    );
 }
+export default Cart;
