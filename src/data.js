@@ -6,15 +6,8 @@ export const SliderItems = [
         description: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         backgroundColor: "f5fafd"
     },
-    {  
-        id: 2,
-        image: "https://i.ibb.co/cgCvVrr/girl1-png.png",
-        title: "30% OFF SALE",
-        description: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-        backgroundColor: "fcf1ed"
-    },
     {
-        id: 3,
+        id: 2,
         image: "https://i.ibb.co/cXFnLLV/3.png",
         title: "SPRING SALE",
         description: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
@@ -55,7 +48,7 @@ export const popularProducts = [
     },
     {
       id:4,
-      image:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      image:"https://www.pngmart.com/files/4/Floral-Dress-PNG-Transparent-Image.png",
     },
     {
       id:5,
