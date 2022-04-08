@@ -40,7 +40,7 @@ export const popularProducts = [
     },
     {
       id:2,
-      image:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      image:"https://kesses.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/k/e/ke09745_natural_frente_1.png",
     },
     {
       id:3,
