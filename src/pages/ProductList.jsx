@@ -38,8 +38,10 @@ const Option = styled.option`
     
 `
 
-function ProductList(){
+const ProductList = () => {
+
     return(
+        
         <Container>
             <Navbar />
             <Announcement />

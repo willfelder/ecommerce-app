@@ -44,8 +44,10 @@ const Button = styled.button`
     cursor: pointer;
 `
 
-function NewsLetter(){
+const NewsLetter = () => {
+
     return(
+        
         <Container>
             <Title>Newsletter</Title>
             <Description>Get timely updates from your favorite products.</Description>

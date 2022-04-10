@@ -71,6 +71,7 @@ const Details = styled.div`
     justify-content: space-around;
 `
 const ProductName = styled.span``
+
 const ProductId = styled.span``
 
 const ProductColor = styled.div`
@@ -127,6 +128,7 @@ const SummaryItem = styled.div`
     font-size: ${props => props.type === "total" && "24px"};
 `
 const SummaryItemText = styled.span``
+
 const SummaryItemPrice = styled.span``
 
 const Button = styled.button`
@@ -142,13 +144,16 @@ const Button = styled.button`
     }
 `
 
-function Cart(){
+const Cart = () => {
+
     return(
+
         <Container>
             <Navbar />
             <Announcement />
             <Wrapper>
                 <Title>Your Bag</Title>
+
                 <Top>
                     <TopButton>Continue Shopping</TopButton>
                     <TopTexts>
@@ -157,8 +162,10 @@ function Cart(){
                     </TopTexts>
                     <TopButton type="filled">Checkout Now</TopButton>
                 </Top>
+
                 <Bottom>
                     <Info>
+
                         <Product>
                             <ProductDetail>
                                 <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
@@ -169,6 +176,7 @@ function Cart(){
                                     <ProductSize><b>Size:</b>37.5</ProductSize>
                                 </Details>
                             </ProductDetail>
+
                             <PriceDetail>
                                 <ProductAmountContainer>
                                     <Add/>
@@ -178,6 +186,7 @@ function Cart(){
                                 <ProductPrice>$ 50</ProductPrice>
                             </PriceDetail>
                         </Product>
+
                     <Hr/>
                         <Product>
                             <ProductDetail>
@@ -189,6 +198,7 @@ function Cart(){
                                     <ProductSize><b>Size:</b>M</ProductSize>
                                 </Details>
                             </ProductDetail>
+
                             <PriceDetail>
                                 <ProductAmountContainer>
                                     <Add/>
@@ -199,6 +209,7 @@ function Cart(){
                             </PriceDetail>
                         </Product>
                     </Info>
+
                     <Summary>
                         <SummaryTitle>Order Summary</SummaryTitle>
                         <SummaryItem>
@@ -219,6 +230,7 @@ function Cart(){
                         </SummaryItem>
                         <Button>Checkout Now</Button>
                     </Summary>
+                    
                 </Bottom>
             </Wrapper>
             <Footer />

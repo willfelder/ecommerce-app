@@ -76,8 +76,10 @@ const MenuItem = styled.div`
     ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `
 
-function Navbar(){
+const Navbar = () => {
+
     return(
+
         <Container>
             <Wrapper>
                 <Left>
@@ -87,9 +89,11 @@ function Navbar(){
                         <SearchIcon style={{color: 'gray', fontSize: 16}}/>
                     </SearchContainer>
                 </Left>
+
                 <Center>
                     <Logo>YOUR BRAND</Logo>
                 </Center>
+                
                 <Right>
                     <MenuItem>
                         <Link to="/register" style={{ textDecoration: "none", color: "#161616"}}>

@@ -49,8 +49,10 @@ const Button = styled.button`
     cursor: pointer;
 `
 
-function Register(){
+const Register = () => {
+
     return(
+        
         <Container>
             <Wrapper>
                 <Title>Create an Account</Title>

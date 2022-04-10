@@ -1,4 +1,5 @@
 export const SliderItems = [
+  
     {
         id: 1,
         image: "https://i.ibb.co/DG69bQ4/2.png",
@@ -16,6 +17,7 @@ export const SliderItems = [
 ];
 
 export const categories = [
+
     {
         id: 1,
         image: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -34,6 +36,7 @@ export const categories = [
 ];
 
 export const popularProducts = [
+
     {
       id:1,
       image:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",

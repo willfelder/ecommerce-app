@@ -53,8 +53,10 @@ const Link = styled.a`
     cursor: pointer;
 `
 
-function Login(){
+const Login = () => {
+
     return(
+        
         <Container>
             <Wrapper>
                 <Title>Sign In</Title>

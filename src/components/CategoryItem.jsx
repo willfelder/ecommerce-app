@@ -45,7 +45,8 @@ const Button = styled.button`
     }
 `
 
-function CategoryItem({ item }){
+const CategoryItem = ({ item }) => {
+    
     return(
         <Container as={motion.div} whileHover={{scale: 1.1, transition: "all s ease"}}>
             <Image src={item.image} />

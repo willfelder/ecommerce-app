@@ -76,7 +76,8 @@ const Payment = styled.img`
     width: 50%;
 `
 
-function Footer(){
+const Footer = () => {
+
     return(
         <Container>
             <Left>
@@ -105,6 +106,7 @@ function Footer(){
                     </a> 
                 </SocialContainer>
             </Left>
+
             <Center>
                 <Title>Useful Links</Title>
                 <List>
@@ -131,6 +133,7 @@ function Footer(){
                     <ListIcon>Terms</ListIcon>
                 </List>
             </Center>
+            
             <Right>
                 <Title>Contact</Title>
                 <ContactItem>

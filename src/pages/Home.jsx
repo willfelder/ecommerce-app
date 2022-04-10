@@ -7,8 +7,10 @@ import NewsLetter from '../components/Newsletter';
 import Products from '../components/Products';
 import Slider from '../components/Slider';
 
-function Home(){
+const Home = () => {
+
     return(
+      
         <>
           <Announcement />
           <Navbar />

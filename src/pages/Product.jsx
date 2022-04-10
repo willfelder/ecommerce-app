@@ -103,8 +103,10 @@ const Button = styled.button`
     }
 `
 
-function Product(){
+const Product = () => {
+
     return(
+
         <Container>
             <Navbar />
             <Announcement />
@@ -112,10 +114,12 @@ function Product(){
                 <ImgContainer>
                     <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
                 </ImgContainer>
+
                 <InfoContainer>
                     <Title>Denim Jumpsuit</Title>
                     <Description>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum maxime nisi magni! Error necessitatibus hic sit officiis facilis. Corporis, ex consectetur iste veniam provident voluptatem aut ducimus sunt nulla magnam?</Description>
                     <Price>$ 20</Price>
+
                     <FilterContainer>
                         <Filter>
                             <FilterTitle>Color</FilterTitle>
@@ -134,14 +138,15 @@ function Product(){
                             </FilterSize>
                         </Filter>
                     </FilterContainer>
+
                     <AddContainer>
-                            <AmountContainer>
-                                <Remove />
-                                <Amount>1</Amount>
-                                <Add />
-                            </AmountContainer>
-                            <Button>ADD TO CART</Button>
-                        </AddContainer>
+                        <AmountContainer>
+                            <Remove />
+                            <Amount>1</Amount>
+                            <Add />
+                        </AmountContainer>
+                        <Button>ADD TO CART</Button>
+                    </AddContainer>
                 </InfoContainer>
             </Wrapper>
             <NewsLetter />

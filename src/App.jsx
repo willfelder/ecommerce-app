@@ -7,8 +7,10 @@ import Login from './pages/Login';
 import Cart from './pages/Cart';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
-function App() {
+const App = () => {
+
   return(
+    
     <>
       <Router>
         <Switch>

@@ -103,8 +103,10 @@ const containerVariant = {
     }
 }
 
-function Slider(){
+const Slider = () => {
+
     const [ slideIndex, setSlideIndex ] = useState(0);
+
     const handleClick = (direction) => {
         if(direction === "left"){
             setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2)
@@ -112,11 +114,14 @@ function Slider(){
             setSlideIndex(slideIndex < 1 ? slideIndex + 1 : 0)
         }
     }
+
     return(
+
             <Container>
                 <Arrow direction="left" onClick={() => handleClick("left")}>
                     <ArrowLeftIcon />
                 </Arrow>
+
                 <Wrapper slideIndex={slideIndex}>
                     {SliderItems.map(item => (
                         <Slide backgroundColor={item.backgroundColor} key={item.id}>
@@ -138,6 +143,7 @@ function Slider(){
                         </Slide>
                     ))}
                 </Wrapper>
+                
                 <Arrow direction="right" onClick={() => handleClick("right")}>
                     <ArrowRightIcon />
                 </Arrow>
