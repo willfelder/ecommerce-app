@@ -48,7 +48,7 @@ const Button = styled.button`
 const CategoryItem = ({ item }) => {
     
     return(
-        <Container as={motion.div} whileHover={{scale: 1.1, transition: "all s ease"}}>
+        <Container as={motion.div} whileHover={{scale: 0.9, transition: "all s ease"}}>
             <Image src={item.image} />
             <Info>
                 <Title>{item.title}</Title>

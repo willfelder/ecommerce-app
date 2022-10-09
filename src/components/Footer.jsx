@@ -1,12 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import PinterestIcon from '@mui/icons-material/Pinterest';
-import RoomIcon from '@mui/icons-material/Room';
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
+import { FacebookIcon, InstagramIcon, TwitterIcon, PinterestIcon, RoomIcon, PhoneIcon, EmailIcon} from './index';
 import { mobile } from '../responsive';
 import { Link } from 'react-router-dom';
 

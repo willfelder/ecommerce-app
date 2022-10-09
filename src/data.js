@@ -43,7 +43,7 @@ export const popularProducts = [
     },
     {
       id:2,
-      image:"https://kesses.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/k/e/ke09745_natural_frente_1.png",
+      image:"https://purepng.com/public/uploads/large/purepng.com-women-dressclothingwomen-dressfashion-women-dress-cloth-apparel-631522326975ia8xr.png",
     },
     {
       id:3,

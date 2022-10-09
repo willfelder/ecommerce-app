@@ -1,10 +1,7 @@
-import { Add, Remove } from '@mui/icons-material';
 import React from 'react';
 import styled from 'styled-components';
-import Announcement from '../components/Announcement';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import NewsLetter from '../components/Newsletter';
+import { Add, Remove } from '@mui/icons-material';
+import { Announcement, Footer, Navbar, Newsletter} from '../components/index';
 import { mobile } from '../responsive';
 
 const Container = styled.div`
@@ -149,7 +146,7 @@ const Product = () => {
                     </AddContainer>
                 </InfoContainer>
             </Wrapper>
-            <NewsLetter />
+            <Newsletter />
             <Footer />
         </Container>
     );

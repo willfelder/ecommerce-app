@@ -1,10 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Navbar from '../components/Navbar';
-import Announcement from '../components/Announcement';
-import Products from '../components/Products';
-import NewsLetter from '../components/Newsletter';
-import Footer from '../components/Footer';
+import { Navbar, Announcement, Products, Newsletter, Footer} from '../components/index';
 import { mobile } from '../responsive';
 
 const Container = styled.div`
@@ -76,7 +72,7 @@ const ProductList = () => {
                 </Filter>
             </FilterContainer>
             <Products />
-            <NewsLetter />
+            <Newsletter />
             <Footer />
         </Container>
     );

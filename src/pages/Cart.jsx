@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Navbar from '../components/Navbar';
-import Announcement from '../components/Announcement';
-import Footer from '../components/Footer';
+import { Navbar, Announcement, Footer} from "../components/index";
 import { Add, Remove } from '@mui/icons-material';
 import { mobile } from '../responsive';
 

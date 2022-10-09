@@ -1,10 +1,5 @@
 import React from 'react';
-import Home from './pages/Home';
-import ProductList from './pages/ProductList';
-import Product from './pages/Product';
-import Register from './pages/Register';
-import Login from './pages/Login';
-import Cart from './pages/Cart';
+import { Home, ProductList, Product, Register, Login, Cart} from './pages/index';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
